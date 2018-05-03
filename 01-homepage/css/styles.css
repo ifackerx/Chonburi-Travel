@@ -115,7 +115,7 @@ b.light-color{ color: #444; }
 .border-btn:hover:before{ transform: translateX(0%); }
 
 
-.section{ padding: 100px 0 70px; }
+.section{ padding: 50px 0 35px; }
 
 .imgfree img {
 	width: 100%;
