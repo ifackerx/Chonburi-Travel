@@ -259,6 +259,76 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
  
 	} 
 
+#threemook {
+	background-image: url(../../images/khaomuk-banner.JPG); 
+	background-size: cover; 
+
+}
+
+#cartoon { 
+	
+	background-image: url(../../images/waterpark-banner.png); 
+	background-size: cover; 
+}
+
+
+#market { 
+	
+	background-image: url(../../images/taladnam-banner.jpg); 
+	background-size: cover; 
+}
+
+#jumlong {
+
+	
+	background-image: url(../../images/minisiam-banner.jpg); 
+	background-size: cover; 
+
+}
+
+#korkham {
+	
+	background-image: url(../../images/kam-banner.jpg); 
+	background-size: cover; 
+
+
+}
+
+#longg {
+	
+
+	
+	background-image: url(../../images/lhong-banner.jpg); 
+	background-size: cover; 
+}
+
+#nongnooch {
+
+	background-image: url(../../images/nongnooch-banner.jpg); 
+	background-size: cover; 
+
+
+	
+}
+
+#silverlake {
+
+	
+	background-image: url(../../images/silverlake-banner.jpg); 
+	background-size: cover; 
+
+}
+
+#srirachar {
+
+	background-image: url(../../images/suansri-banner.jpg); 
+	background-size: cover; 
+	
+
+}
+
+
+
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
 
