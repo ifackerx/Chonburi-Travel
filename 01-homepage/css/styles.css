@@ -67,6 +67,13 @@ a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
 a b.light-color:hover{ text-decoration: none; color: rgb(255, 255, 255); }
 
+#bud:hover {
+	text-decoration: none; color: rgb(134, 126, 126); 
+}
+#bud:active {
+	text-decoration: none; color: rgb(0, 0, 0); 
+}
+
 b{ font-weight: 500; }
 
 li{ list-style: none; display: inline-block; }
@@ -284,9 +291,17 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .story-area{ position: relative; z-index: 1; }
+.story-area2{ position: relative; z-index: 1; }
+
+
 
 .story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
 	opacity: .8; background: url(../../images/Background_Circle.png); }
+
+
+.story-area2:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
+	opacity: .8; background-color: white; }
+
 
 
 /* ---------------------------------
@@ -391,7 +406,7 @@ footer .logo{ display: block; height: 50px; }
 
 footer .logo img{ height: 100%; width: auto; }
 
-footer .newsletter{ margin: 20px 0; }
+footer .newsletter{ margin: 0px 0; }
 
 footer .newsletter .title{ margin: 5px 0; }
 
